@@ -1,3 +1,34 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@Shubhamjain45 
+Shubhamjain45
+/
+ShubhamInteractiveResume
+1
+00
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+ShubhamInteractiveResume/myresume.js /
+@Shubhamjain45
+Shubhamjain45 Add files via upload
+Latest commit 722921f 2 hours ago
+ History
+ 1 contributor
+1343 lines (1017 sloc)  41.7 KB
+  
 var w = window.innerWidth;
 var h = window.innerHeight;
 var bgColor = "#2ECCFA"; 
@@ -632,7 +663,7 @@ function create(){
 
 	inst_text = game.add.text(290,h-50,"Use  Arrow Keys  OR << Screen Buttons >> ",{font:"30px Arial",fill:"#fff"});
 	//Add hero 
-	hero = game.add.sprite(100,-200,'Shubham');
+	hero = game.add.sprite(100,-200,'prateek');
 	hero.animations.add('run');
 
 
@@ -1270,11 +1301,8 @@ function fileComplete(progress, cacheKey, success, totalLoaded, totalFiles) {
 	text.setText("File Complete: " + progress + "% - " + totalLoaded + " out of " + totalFiles);
 
 /*	var newImage = game.add.image(x, y, cacheKey);
-
 	newImage.scale.set(0.3);
-
 	x += newImage.width + 20;
-
 	if (x > 700)
 	{
 		x = 32;
@@ -1340,4 +1368,15 @@ function openPublication(){
 }
 
 
-
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
