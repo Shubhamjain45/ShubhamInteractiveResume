@@ -632,7 +632,7 @@ function create(){
 
 	inst_text = game.add.text(290,h-50,"Use  Arrow Keys  OR << Screen Buttons >> ",{font:"30px Arial",fill:"#fff"});
 	//Add hero 
-	hero = game.add.sprite(100,-200,'prateek');
+	hero = game.add.sprite(100,-200,'Shubham');
 	hero.animations.add('run');
 
 
