@@ -1,34 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@Shubhamjain45 
-Shubhamjain45
-/
-ShubhamInteractiveResume
-1
-00
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-ShubhamInteractiveResume/myresume.js /
-@Shubhamjain45
-Shubhamjain45 Add files via upload
-Latest commit 722921f 2 hours ago
- History
- 1 contributor
-1343 lines (1017 sloc)  41.7 KB
-  
 var w = window.innerWidth;
 var h = window.innerHeight;
 var bgColor = "#2ECCFA"; 
