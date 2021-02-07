@@ -1,3 +1,5 @@
 # interactive-resume
-Interactive Resume of Shubham Jain
+Interactive Resume of Prateek Narang
+URL:  www.prateeknarang.com/
+
 
