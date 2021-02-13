@@ -1270,8 +1270,11 @@ function fileComplete(progress, cacheKey, success, totalLoaded, totalFiles) {
 	text.setText("File Complete: " + progress + "% - " + totalLoaded + " out of " + totalFiles);
 
 /*	var newImage = game.add.image(x, y, cacheKey);
+
 	newImage.scale.set(0.3);
+
 	x += newImage.width + 20;
+
 	if (x > 700)
 	{
 		x = 32;
@@ -1335,17 +1338,3 @@ function openPublication(){
  var win = window.open("http://www.ijcaonline.org/research/volume127/number2/bindal-2015-ijca-906322.pdf");
  win.focus();
 }
-
-
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
