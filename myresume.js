@@ -229,10 +229,10 @@ function create(){
 	var style_lang = { font:"30px Roboto" ,fill:"#fff"};
 	//var style_lang = { font:"30px monospace" ,fill:"#fff"};
 
-	javatext = game.add.text(5050,h-320-50,'Python\n 88.54%',style_roboto);
-	pythontext=	game.add.text(5250,h-430-60,'Java\n 94.78%',style_white2);
-	jstext = game.add.text(5430,h-450-50,'JavaScript\n 98.48%',style_white2);
-	ctext = game.add.text(5660,h-460-50,'C/C++ \n 98.42%',style_white2);
+	javatext = game.add.text(5050,h-320-50,'Python\n ',style_roboto);
+	pythontext=	game.add.text(5250,h-430-60,'C#\n ',style_white2);
+	jstext = game.add.text(5430,h-450-50,'JavaScript\n ',style_white2);
+	ctext = game.add.text(5660,h-460-50,'C/C++ \n ',style_white2);
 
 	
 	javatext.alpha = 0.2;
@@ -304,9 +304,9 @@ function create(){
 
 
 	var style = { font: "16px monospace", fill: "#fff", align: "center" };
-	game.add.text(2930,h-250,"Class 10th \n 10.0/10.0 CGPA \n School Topper", style);
-	game.add.text(3330,h-280,"Class 12th \n 95.2 % marks \n CBSE Board ", style);
-	game.add.text(3700,h-320,"JEE Mains \n All India Rank 489 \n 13th in Punjab \n\n 1st in DTU \n(University Rank Opener)", style);
+	game.add.text(2930,h-250,"Class 10th \n 81.81/100 % marks ", style);
+	game.add.text(3330,h-280,"Class 12th \n 64.46 % marks \n State Board ", style);
+	//game.add.text(3700,h-320,"JEE Mains \n All India Rank 489 \n 13th in Punjab \n\n 1st in DTU \n(University Rank Opener)", style);
 	//Add Ground and Grass
 	var ground = game.add.tileSprite(0,h-100,platformLength*2,2000,'ground');
 	ground.scale.setTo(0.5,0.5);
@@ -315,7 +315,7 @@ function create(){
 	grass.scale.setTo(0.5,0.5);
 	
 
-	game.add.text(5200,h-70,'*Percentiles as calculated by HackerEarth',{font:"20px monospace",fill:"#fff"});
+	//game.add.text(5200,h-70,'*Percentiles as calculated by HackerEarth',{font:"20px monospace",fill:"#fff"});
 
 
 	var water = game.add.tileSprite(8700,h-100,800,600,'waterAtlas');
