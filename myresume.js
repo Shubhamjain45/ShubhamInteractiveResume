@@ -620,7 +620,7 @@ function create(){
 	//Add College building
 	game.add.sprite(4300,h-480,'building').scale.setTo(0.75,0.75);
 	aieee_cup=game.add.sprite(3500,-500,'cup');
-	game.add.text(4300,h-120,"  Passed with First Class.",style_roboto);
+	game.add.text(4300,h-120,"Passed with First Class.",style_roboto);
 	
 	//Add bubble
 	
