@@ -1326,7 +1326,7 @@ function openResume(){
 }
 
 function openGmail(){
- var win = window.open("mailto:prateeknarang111@gmail.com");
+ var win = window.open("mailto:shubhamjain4696@gmail.com");
  win.focus();
 }
 
