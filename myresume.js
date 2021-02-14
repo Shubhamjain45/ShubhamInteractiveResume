@@ -215,7 +215,7 @@ function create(){
 	
 	hill2=game.add.sprite(3000,h-350+400,'hill');
 
-	hill3=game.add.sprite(3400,h-400+400,'hill');
+	//hill3=game.add.sprite(3400,h-400+400,'hill');
 
 	
 
@@ -229,10 +229,10 @@ function create(){
 	var style_lang = { font:"30px Roboto" ,fill:"#fff"};
 	//var style_lang = { font:"30px monospace" ,fill:"#fff"};
 
-	javatext = game.add.text(5050,h-320-50,'Python\n ',style_roboto);
-	pythontext=	game.add.text(5250,h-430-60,'C#\n ',style_white2);
-	jstext = game.add.text(5430,h-450-50,'JavaScript\n ',style_white2);
-	ctext = game.add.text(5660,h-460-50,'C/C++ \n ',style_white2);
+	javatext = game.add.text(5050,h-320-50,'Python',style_roboto);
+	pythontext=	game.add.text(5250,h-430-60,'C#',style_white2);
+	jstext = game.add.text(5430,h-450-50,'JavaScript',style_white2);
+	ctext = game.add.text(5660,h-460-50,'C/C++',style_white2);
 
 	
 	javatext.alpha = 0.2;
