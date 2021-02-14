@@ -215,7 +215,7 @@ function create(){
 	
 	hill2=game.add.sprite(3000,h-350+400,'hill');
 
-	hill3=game.add.sprite(3400,h-400+400,'hill');
+	//hill3=game.add.sprite(3400,h-400+400,'hill');
 
 	
 
