@@ -26,7 +26,7 @@ var codechef_url="https://www.codechef.com/users/shubhamjain45";
 var github_url="https://github.com/Shubhamjain45";
 var facebook_url="https://www.facebook.com/profile.php?id=100004849727551";
 var linkedin_url="https://www.linkedin.com/in/shubham-harish-jain/";
-var resume_url="http://www.prateeknarang.com/resume.pdf";
+var resume_url="https://shubhamjain45.github.io/";
 var website_url="https://shubhamjain45.github.io/";
 var gmail_url="";
 var inst_text;
