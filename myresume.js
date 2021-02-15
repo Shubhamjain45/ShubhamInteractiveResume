@@ -304,7 +304,7 @@ function create(){
 
 
 	var style = { font: "16px monospace", fill: "#fff", align: "center" };
-	game.add.text(2930,h-250,"Class 10th \n 81.81/100 % marks ", style);
+	game.add.text(2930,h-250,"Class 10th \n 81.81 % marks ", style);
 	game.add.text(3330,h-280,"Class 12th \n 64.46 % marks \n State Board ", style);
 	//game.add.text(3700,h-320,"JEE Mains \n All India Rank 489 \n 13th in Punjab \n\n 1st in DTU \n(University Rank Opener)", style);
 	//Add Ground and Grass
@@ -455,12 +455,12 @@ function create(){
 	pd.angle = 90;
 	game.add.text(13800-100,h-300,"Wrote Python Scripts to analyze \n fragmentation pattern \n on USB drives.",style_white);
 
-	game.add.sprite(14100,h-370,'hospital');
-	var ambu = game.add.sprite(14200,h-260,'ambulance');
-	ambu.scale.setTo(0.8,0.8);
-	var t = game.add.tween(ambu).to( { x:14400,}, 2000, Phaser.Easing.Back.InOut, true, 0, 2000, true);
-	t.start();
-	game.add.text(14240,h-370,"Worked in a team \nto develop Smart Hospital Management \n System for Kalpvriksh Hospital.",style_white);
+	//game.add.sprite(14100,h-370,'hospital');
+	//var ambu = game.add.sprite(14200,h-260,'ambulance');
+	//ambu.scale.setTo(0.8,0.8);
+	//var t = game.add.tween(ambu).to( { x:14400,}, 2000, Phaser.Easing.Back.InOut, true, 0, 2000, true);
+	//t.start();
+	//game.add.text(14240,h-370,"Worked in a team \nto develop Smart Hospital Management \n System for Kalpvriksh Hospital.",style_white);
 
 
 	game.add.sprite(14800,h-420,'otherprojects');
