@@ -725,7 +725,7 @@ function create(){
 	
 	download_btn = game.add.button(w-150,5,'download',openResume,this);
 	download_btn.fixedToCamera = true;
-	game.add.text(w-120,100,"Download PDF",{font:"10px Roboto",fill:"#000"}).fixedToCamera=true;
+	game.add.text(w-120,100,"Portfolio",{font:"10px Roboto",fill:"#000"}).fixedToCamera=true;
 	night_tween = game.add.tween(night);
 	night_tween.to({ alpha:0}, 10000)
 		//, Phaser.Easing.Quadratic.InOut, true, 0, 5000, true);
