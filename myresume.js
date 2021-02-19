@@ -1195,6 +1195,7 @@ function moveHillsUp(){
 	hills2Tween.to({y:h-350},2000);
 	hills2Tween.start();
 
+	/*
 	var hills3Tween = game.add.tween(hill3);
 	hills3Tween.to({y:h-400},2500);
 	hills3Tween.start();
@@ -1203,6 +1204,7 @@ function moveHillsUp(){
 	var ct = game.add.tween(aieee_cup);
 	ct.to({y:h-410},5000,Phaser.Easing.Bounce.Out, true);
 	ct.start();
+	*/
 
 }
 
