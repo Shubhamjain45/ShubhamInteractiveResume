@@ -211,11 +211,11 @@ function create(){
 
 
 	game.add.sprite(3060,h-350,'treeS');
-	hill1=game.add.sprite(2600,h-300+400,'hill');
+	hill1=game.add.sprite(3000,h-300+400,'hill');
 	
-	hill2=game.add.sprite(3000,h-350+400,'hill');
+	hill2=game.add.sprite(3400,h-350+400,'hill');
 
-	hill3=game.add.sprite(3400,h-400+400,'hill');
+	//hill3=game.add.sprite(3400,h-400+400,'hill');
 
 	
 
@@ -1190,7 +1190,7 @@ function moveBugLeft(){
 function moveHillsUp(){
 
 	var hillsTween = game.add.tween(hill1);
-	hillsTween.to({y:h-300},2000);
+	1Tween.to({y:h-300},2000);
 	hillsTween.start();
 
 	var hills2Tween = game.add.tween(hill2);
