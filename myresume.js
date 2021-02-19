@@ -1190,11 +1190,11 @@ function moveBugLeft(){
 function moveHillsUp(){
 
 	var hillsTween = game.add.tween(hill1);
-	hillsTween.to({y:h-300},1500);
+	hillsTween.to({y:h-350},1500);
 	hillsTween.start();
 
 	var hills2Tween = game.add.tween(hill2);
-	hills2Tween.to({y:h-350},2000);
+	hills2Tween.to({y:h-400},2000);
 	hills2Tween.start();
 
 	/*
