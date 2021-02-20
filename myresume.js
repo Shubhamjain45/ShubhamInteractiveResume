@@ -436,9 +436,10 @@ function create(){
 	game.add.text(11420,h-290,"Coding Blocks,Delhi \n Aug'15-Nov'15 \n C++ Course Instructor",style_ex);
 	*/
 
-	var pd = game.add.sprite(10875,h-220,'sandiskPd');
+	/*var pd = game.add.sprite(10875,h-220,'sandiskPd');
 	pd.scale.setTo(1.2,1.2);
 	pd.angle = -30;
+	*/
 
 	//Add projects
 	game.add.sprite(12200,h-370,'games');
@@ -452,10 +453,11 @@ function create(){
 	game.add.sprite(13400,h-310,'bits');
 	game.add.text(13300,h-430,"Developed meta-data tracking\nstructures for large storage devices \n using Boost C++ and \n Boost Python Libraries.",style_white);
 
-	var pd = game.add.sprite(14050-100,h-160,'sandiskPd');
+	/*var pd = game.add.sprite(14050-100,h-160,'sandiskPd');
 	pd.scale.setTo(1.4,1.4);
 	pd.angle = 90;
 	game.add.text(13800-100,h-300,"Wrote Python Scripts to analyze \n fragmentation pattern \n on USB drives.",style_white);
+	*/
 
 	//game.add.sprite(14100,h-370,'hospital');
 	//var ambu = game.add.sprite(14200,h-260,'ambulance');
