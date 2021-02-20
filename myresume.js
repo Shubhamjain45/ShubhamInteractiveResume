@@ -304,8 +304,8 @@ function create(){
 
 
 	var style = { font: "16px monospace", fill: "#fff", align: "center" };
-	game.add.text(2930,h-250,"Class 10th \n 81.81 % marks ", style);
-	game.add.text(3330,h-280,"Class 12th \n 64.46 % marks \n State Board ", style);
+	game.add.text(3330,h-250,"Class 10th \n 81.81 % marks ", style);
+	game.add.text(3700,h-280,"Class 12th \n 64.46 % marks \n State Board ", style);
 	//game.add.text(3700,h-320,"JEE Mains \n All India Rank 489 \n 13th in Punjab \n\n 1st in DTU \n(University Rank Opener)", style);
 	//Add Ground and Grass
 	var ground = game.add.tileSprite(0,h-100,platformLength*2,2000,'ground');
