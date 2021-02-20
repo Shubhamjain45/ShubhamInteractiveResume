@@ -488,7 +488,7 @@ function create(){
 	game.add.text(base5+1180,h-250,"Hackathon \n 3rd Runner up\n Developed a Game\n in DART",style_position);
 
 	
-	/*cup2=game.add.sprite(base5+1400,-340,'cup');
+	cup2=game.add.sprite(base5+1400,-340,'cup');
 	cup2.scale.setTo(0.8,0.8);
 	game.add.sprite(base5+1630,h-390,'csi');
 	game.add.text(base5+1580,h-250,"2nd in Spython \nGame Development\n Challenge",style_position);
@@ -503,7 +503,6 @@ function create(){
 	game.add.sprite(base5+2170,h-310+50,'shephertz');
 	game.add.text(base5+2060,h-205+30,"1st in ",style_position);
 	game.add.sprite(base5+2150,h-210+30,'gaana').scale.setTo(0.15,0.15);
-          */
 
 	//Add grari
 	grari = game.add.sprite(base5+2600,h-350,'grari');
@@ -529,7 +528,7 @@ function create(){
 
 	game.add.sprite(base5+3670,h-310,'icpc');
 	game.add.text(base5+3650,h-470,"Qualified for \nACM-ICPC \nChennai Regionals 2015\n(Team AIR 62) !",{font:"30px Arial",fill:"#fff",align:"center"});
-	*/
+	
 
 	//Add other highlights
 	game.add.sprite(base6+600,h-240,'chai');
