@@ -442,7 +442,7 @@ function create(){
 	*/
 
 	//Add projects
-	game.add.sprite(12200,h-370,'games');
+	/*game.add.sprite(12200,h-370,'games');
 	game.add.text(12280,h-430,"Developed Web & Android Games\n 500-1000 Downloads \n Rated 4.8/5.0 on Google Play",style_white);
 
 	game.add.sprite(12760,h-250,'gamershq');
@@ -467,10 +467,11 @@ function create(){
 	//game.add.text(14240,h-370,"Worked in a team \nto develop Smart Hospital Management \n System for Kalpvriksh Hospital.",style_white);
 
 
-	game.add.sprite(14800,h-420,'otherprojects');
+	/*game.add.sprite(14800,h-420,'otherprojects');
 	game.add.text(14850,h-450,"Other Projects",style_white);
+	*/
 	//Add Achivements Section
-	game.add.tileSprite(base5+500,h-100-73*3,139*2,73*3,'brick');
+	/*game.add.tileSprite(base5+500,h-100-73*3,139*2,73*3,'brick');
 	shakti = game.add.sprite(base5+1200,-500,'pshaktiman');
 	shakti.scale.setTo(0.6,0.6);
 	shakti_cup = game.add.sprite(base5+500,-500,'cup');
@@ -529,10 +530,11 @@ function create(){
 
 	game.add.sprite(base5+3670,h-310,'icpc');
 	game.add.text(base5+3650,h-470,"Qualified for \nACM-ICPC \nChennai Regionals 2015\n(Team AIR 62) !",{font:"30px Arial",fill:"#fff",align:"center"});
+	*/
 
 	//Add other highlights
-	game.add.sprite(base6+600,h-240,'chai');
-	game.add.text(base6+600,h-330,"Host:Chai Pe Charcha \n with NaMO & 'Mere \nSapno Ka Bharat'.",style_white);
+	//game.add.sprite(base6+600,h-240,'chai');
+	//game.add.text(base6+600,h-330,"Host:Chai Pe Charcha \n with NaMO & 'Mere \nSapno Ka Bharat'.",style_white);
 	shakti2 = game.add.sprite(base6+930,-500,'pshaktiman');
 	shakti2.scale.setTo(0.75,0.75);
 	game.add.text(base6+900,h-430,"Sports Lover",style_white);
@@ -542,10 +544,10 @@ function create(){
 	
 	game.add.sprite(base6+1200-30,h-550,'tree1');
 	game.add.sprite(base6+1250+30,h-400,'treeS');
-	game.add.sprite(base6+1200,h-450,'yoga');
-	game.add.sprite(base6+1600,h-400,'swach_bharat');
-	game.add.text(base6+1240,h-500,"Holds Yoga Session \nin DTU \n every Friday.",style_white);
-	game.add.text(base6+1400+20,h-360,"Took active part in \n Swacch Bharat,Tree Plantation\n Drives in Delhi,Punjab,Karnataka.",style_white);
+	//game.add.sprite(base6+1200,h-450,'yoga');
+	//game.add.sprite(base6+1600,h-400,'swach_bharat');
+	//game.add.text(base6+1240,h-500,"Holds Yoga Session \nin DTU \n every Friday.",style_white);
+	//game.add.text(base6+1400+20,h-360,"Took active part in \n Swacch Bharat,Tree Plantation\n Drives in Delhi,Punjab,Karnataka.",style_white);
 
 	
 	//Add Contact Buttons
