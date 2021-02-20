@@ -604,7 +604,7 @@ function create(){
 	
 	game.add.text(base7+720,h-120,"Click /Tap the Clouds to open Profiles and Publications.",style_white);
 	
-	game.add.button(base7+1260,h-450+20,'publication',openPublication,this);
+	//game.add.button(base7+1260,h-450+20,'publication',openPublication,this);
 
 	//scale.setTo(0.15,0.15);
 
