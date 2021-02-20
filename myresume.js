@@ -471,29 +471,29 @@ function create(){
 	game.add.text(14850,h-450,"Other Projects",style_white);
 	*/
 	//Add Achivements Section
-	/*game.add.tileSprite(base5+500,h-100-73*3,139*2,73*3,'brick');
-	shakti = game.add.sprite(base5+1200,-500,'pshaktiman');
-	shakti.scale.setTo(0.6,0.6);
-	shakti_cup = game.add.sprite(base5+500,-500,'cup');
-	shakti_cup.scale.setTo(0.5,0.5);
-	game.add.text(base5+505,h-300,"Best Cartoonist Award \n\n Won several Dist Level\nCartooning,Painting \n & Quiz Competitions. ",style_white);
+	game.add.tileSprite(base5+500,h-100-73*3,139*2,73*3,'brick');
+	//shakti = game.add.sprite(base5+1200,-500,'pshaktiman');
+	//shakti.scale.setTo(0.6,0.6);
+	//shakti_cup = game.add.sprite(base5+500,-500,'cup');
+	//shakti_cup.scale.setTo(0.5,0.5);
+	//game.add.text(base5+505,h-300,"Best Cartoonist Award \n\n Won several Dist Level\nCartooning,Painting \n & Quiz Competitions. ",style_white);
 	
 	//game.add.tileSprite(15720,h-300,100,300'brick');
 
 	//game.add.sprite(15715,h-410,'best').scale.setTo(0.8,0.8);
 	//Positon style
 	var style_position = { font:"24px monospace",fill:"#fff",align:"center"};
-	cup1 = game.add.sprite(base5+820+200,-280,'cup');
-	cup1.scale.setTo(0.6,0.6);
-	game.add.sprite(base5+1190,h-330,'google');
-	game.add.text(base5+1180,h-250,"Hackathon \n 3rd Runner up\n Developed a Game\n in DART",style_position);
+	//cup1 = game.add.sprite(base5+820+200,-280,'cup');
+	//cup1.scale.setTo(0.6,0.6);
+	//game.add.sprite(base5+1190,h-330,'google');
+	//game.add.text(base5+1180,h-250,"Hackathon \n 3rd Runner up\n Developed a Game\n in DART",style_position);
 
 	
-	cup2=game.add.sprite(base5+1400,-340,'cup');
+	/*cup2=game.add.sprite(base5+1400,-340,'cup');
 	cup2.scale.setTo(0.8,0.8);
 	game.add.sprite(base5+1630,h-390,'csi');
 	game.add.text(base5+1580,h-250,"2nd in Spython \nGame Development\n Challenge",style_position);
-
+       
 	
 
 	cup3=game.add.sprite(base5+1820,-410,'cup');
@@ -504,7 +504,7 @@ function create(){
 	game.add.sprite(base5+2170,h-310+50,'shephertz');
 	game.add.text(base5+2060,h-205+30,"1st in ",style_position);
 	game.add.sprite(base5+2150,h-210+30,'gaana').scale.setTo(0.15,0.15);
-
+          */
 
 	//Add grari
 	grari = game.add.sprite(base5+2600,h-350,'grari');
@@ -516,20 +516,20 @@ function create(){
 	grari2.animations.play('run',2,true);
 
 	//Add digital India
-	digital_india = game.add.sprite(base5+2700,h-260,'digital_india');
-	digital_india.animations.add('run');
-	digital_india.animations.play('run',5,true);
-	game.add.text(base5+2650,h-420,"Winning Team member\n Code For India \n Google Hackathon for",{font:"30px Arial",fill:"#fff",align:"center"});
+	//digital_india = game.add.sprite(base5+2700,h-260,'digital_india');
+	//digital_india.animations.add('run');
+	//digital_india.animations.play('run',5,true);
+	//game.add.text(base5+2650,h-420,"Winning Team member\n Code For India \n Google Hackathon for",{font:"30px Arial",fill:"#fff",align:"center"});
 	
-	cup4=game.add.sprite(base5+2420,-410,'cup');
+	//cup4=game.add.sprite(base5+2420,-410,'cup');
 
-	cup5=game.add.sprite(base5+3000,h-400,'cup');
-	cup5=game.add.sprite(base5+3200,h-350,'building').scale.setTo(0.5,0.5);
+	//cup5=game.add.sprite(base5+3000,h-400,'cup');
+	//cup5=game.add.sprite(base5+3200,h-350,'building').scale.setTo(0.5,0.5);
 	
-	game.add.text(base5+3250,h-470,"Winner \nSmart City Hackathon \nat PEC (Nov'15)",{font:"30px Arial",fill:"#fff",align:"center"});
+	//game.add.text(base5+3250,h-470,"Winner \nSmart City Hackathon \nat PEC (Nov'15)",{font:"30px Arial",fill:"#fff",align:"center"});
 
-	game.add.sprite(base5+3670,h-310,'icpc');
-	game.add.text(base5+3650,h-470,"Qualified for \nACM-ICPC \nChennai Regionals 2015\n(Team AIR 62) !",{font:"30px Arial",fill:"#fff",align:"center"});
+	//game.add.sprite(base5+3670,h-310,'icpc');
+	//game.add.text(base5+3650,h-470,"Qualified for \nACM-ICPC \nChennai Regionals 2015\n(Team AIR 62) !",{font:"30px Arial",fill:"#fff",align:"center"});
 	*/
 
 	//Add other highlights
