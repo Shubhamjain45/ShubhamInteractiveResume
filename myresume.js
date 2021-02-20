@@ -531,8 +531,8 @@ function create(){
 	
 
 	//Add other highlights
-	game.add.sprite(base6+600,h-240,'chai');
-	game.add.text(base6+600,h-330,"Host:Chai Pe Charcha \n with NaMO & 'Mere \nSapno Ka Bharat'.",style_white);
+	//game.add.sprite(base6+600,h-240,'chai');
+	//game.add.text(base6+600,h-330,"Host:Chai Pe Charcha \n with NaMO & 'Mere \nSapno Ka Bharat'.",style_white);
 	shakti2 = game.add.sprite(base6+930,-500,'pshaktiman');
 	shakti2.scale.setTo(0.75,0.75);
 	game.add.text(base6+900,h-430,"Sports Lover",style_white);
@@ -542,10 +542,10 @@ function create(){
 	
 	game.add.sprite(base6+1200-30,h-550,'tree1');
 	game.add.sprite(base6+1250+30,h-400,'treeS');
-	game.add.sprite(base6+1200,h-450,'yoga');
-	game.add.sprite(base6+1600,h-400,'swach_bharat');
-	game.add.text(base6+1240,h-500,"Holds Yoga Session \nin DTU \n every Friday.",style_white);
-	game.add.text(base6+1400+20,h-360,"Took active part in \n Swacch Bharat,Tree Plantation\n Drives in Delhi,Punjab,Karnataka.",style_white);
+	//game.add.sprite(base6+1200,h-450,'yoga');
+	//game.add.sprite(base6+1600,h-400,'swach_bharat');
+	//game.add.text(base6+1240,h-500,"Holds Yoga Session \nin DTU \n every Friday.",style_white);
+	//game.add.text(base6+1400+20,h-360,"Took active part in \n Swacch Bharat,Tree Plantation\n Drives in Delhi,Punjab,Karnataka.",style_white);
 
 	
 	//Add Contact Buttons
