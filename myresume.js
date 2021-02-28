@@ -412,7 +412,7 @@ function create(){
 		}
 	}
 
-	//game.add.sprite(10000,h-330,'frog').scale.setTo(0.8,0.8);
+	game.add.sprite(10000,h-330,'frog').scale.setTo(0.8,0.8);
 	game.add.sprite(10300,h-360,'frog').scale.setTo(0.9,0.9);
 	game.add.sprite(10600,h-385,'frog');
 	game.add.sprite(10900,h-450,'frog').scale.setTo(1.2,1.2);
