@@ -429,11 +429,11 @@ function create(){
 	//Add company texts.
 	var style_ex = {font:"16px Arial",fill:orange,align:"center"};
 	var style_exS = {font:"12px Arial",fill:orange,align:"center"};
-	game.add.text(10010,h-210,"  Software Engineer Trainee \n  Capgemini, India ",style_exS);
-	//game.add.text(10390,h-220,"InstaLabs, Gurgaon \n June-July 2014 \n Android Developer",style_exS);
-	game.add.text(10620,h-230,"   Software Engineer \n   2019 - 2020 \n   Capgemini, India",style_ex); 
+	game.add.text(10030,h-210,"  Software Engineer Trainee \n  Capgemini, India ",style_exS);
+	//game.add.text(10390h-220,"InstaLabs, Gurgaon \n June-July 2014 \n Android Developer",style_exS);
+	game.add.text(10650,h-230,"   Software Engineer \n   2019 - 2020 \n   Capgemini, India",style_ex); 
 	//game.add.text(11000,h-250,"Bangalore \n June-July 2015 \n Firmware Developer\n Intern",style_ex);
-	game.add.text(11320,h-290,"   Senior Software Engineer \n   2020 - 2021 \n   Capgemini, India",style_ex);
+	game.add.text(11360,h-290,"   Senior Software Engineer \n   2020 - 2021 \n   Capgemini, India",style_ex);
 	
 
 	/*var pd = game.add.sprite(10875,h-220,'sandiskPd');
