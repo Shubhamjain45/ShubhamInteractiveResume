@@ -413,9 +413,9 @@ function create(){
 	}
 
 	game.add.sprite(10000,h-330,'frog').scale.setTo(0.8,0.8);
-	game.add.sprite(10300,h-360,'frog').scale.setTo(0.9,0.9);
+	//game.add.sprite(10300,h-360,'frog').scale.setTo(0.9,0.9);
 	game.add.sprite(10600,h-385,'frog');
-	game.add.sprite(10900,h-450,'frog').scale.setTo(1.2,1.2);
+	//game.add.sprite(10900,h-450,'frog').scale.setTo(1.2,1.2);
 	game.add.sprite(11300,h-485,'frog').scale.setTo(1.3,1.3);
 
 	//Add logos
@@ -429,12 +429,12 @@ function create(){
 	//Add company texts.
 	var style_ex = {font:"16px Arial",fill:orange,align:"center"};
 	var style_exS = {font:"12px Arial",fill:orange,align:"center"};
-	/*game.add.text(10080,h-210,"Camp K-12, Delhi \n Sept-Oct 2013 \n Design Instructor",style_exS);
-	game.add.text(10390,h-220,"InstaLabs, Gurgaon \n June-July 2014 \n Android Developer",style_exS);
-	game.add.text(10700,h-230,"HackerEarth\n March-April 2015 \n Problem Setter",style_ex); 
-	game.add.text(11000,h-250,"Bangalore \n June-July 2015 \n Firmware Developer\n Intern",style_ex);
-	game.add.text(11420,h-290,"Coding Blocks,Delhi \n Aug'15-Nov'15 \n C++ Course Instructor",style_ex);
-	*/
+	game.add.text(10080,h-210,"Software Engineer Trainee, Chennai \n Capgemini Technology Services",style_exS);
+	//game.add.text(10390,h-220,"InstaLabs, Gurgaon \n June-July 2014 \n Android Developer",style_exS);
+	game.add.text(10700,h-230,"Software Engineer, March 2019-March 2020 \n Capgemini Technology Services",style_ex); 
+	//game.add.text(11000,h-250,"Bangalore \n June-July 2015 \n Firmware Developer\n Intern",style_ex);
+	game.add.text(11420,h-290,"Senior Software Engineer, April 2020-March 2021 \n Capgemini Technology Services",style_ex);
+	
 
 	/*var pd = game.add.sprite(10875,h-220,'sandiskPd');
 	pd.scale.setTo(1.2,1.2);
