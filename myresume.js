@@ -469,26 +469,27 @@ function create(){
 	//game.add.text(14240,h-370,"Worked in a team \nto develop Smart Hospital Management \n System for Kalpvriksh Hospital.",style_white);
 
 
-	//game.add.sprite(14800,h-420,'otherprojects');
-	//game.add.text(14850,h-450,"Other Projects",style_white);
-	//Add Achievements Section
-	//game.add.tileSprite(base5+500,h-100-73*3,139*2,73*3,'brick');
-	//shakti = game.add.sprite(base5+1200,-500,'pshaktiman');
-	//shakti.scale.setTo(0.6,0.6);
-	//shakti_cup = game.add.sprite(base5+500,-500,'cup');
-	//shakti_cup.scale.setTo(0.5,0.5);
-	//game.add.text(base5+505,h-300,"Best Cartoonist Award \n\n Won several Dist Level\nCartooning,Painting \n & Quiz Competitions. ",style_white);
+	game.add.sprite(14800,h-420,'otherprojects');
+	game.add.text(14850,h-450,"Other Projects",style_white);
 	
-	//game.add.tileSprite(15720,h-300,100,300'brick');
+	//Add Achievements Section
+	game.add.tileSprite(base5+500,h-100-73*3,139*2,73*3,'brick');
+	shakti = game.add.sprite(base5+1200,-500,'pshaktiman');
+	shakti.scale.setTo(0.6,0.6);
+	shakti_cup = game.add.sprite(base5+500,-500,'cup');
+	shakti_cup.scale.setTo(0.5,0.5);
+	game.add.text(base5+505,h-300,"Best Cartoonist Award \n\n Won several Dist Level\nCartooning,Painting \n & Quiz Competitions. ",style_white);
+	
+	game.add.tileSprite(15720,h-300,100,300'brick');
 
-	//game.add.sprite(15715,h-410,'best').scale.setTo(0.8,0.8);
+	game.add.sprite(15715,h-410,'best').scale.setTo(0.8,0.8);
 	//Positon style
 	var style_position = { font:"24px monospace",fill:"#fff",align:"center"};
 	
-	//cup1 = game.add.sprite(base5+820+200,-280,'cup');
-	//cup1.scale.setTo(0.6,0.6);
-	//game.add.sprite(base5+1190,h-330,'google');
-	//game.add.text(base5+1180,h-250,"Hackathon \n 3rd Runner up\n Developed a Game\n in DART",style_position);
+	cup1 = game.add.sprite(base5+820+200,-280,'cup');
+	cup1.scale.setTo(0.6,0.6);
+	game.add.sprite(base5+1190,h-330,'google');
+	game.add.text(base5+1180,h-250,"Hackathon \n 3rd Runner up\n Developed a Game\n in DART",style_position);
 
 	
 	cup2=game.add.sprite(base5+1400,-340,'cup');
