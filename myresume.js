@@ -471,16 +471,15 @@ function create(){
 
 	//game.add.sprite(14800,h-420,'otherprojects');
 	//game.add.text(14850,h-450,"Other Projects",style_white);
-	
 	//Add Achievements Section
-	game.add.tileSprite(base5+500,h-100-73*3,139*2,73*3,'brick');
+	//game.add.tileSprite(base5+500,h-100-73*3,139*2,73*3,'brick');
 	//shakti = game.add.sprite(base5+1200,-500,'pshaktiman');
 	//shakti.scale.setTo(0.6,0.6);
 	//shakti_cup = game.add.sprite(base5+500,-500,'cup');
 	//shakti_cup.scale.setTo(0.5,0.5);
 	//game.add.text(base5+505,h-300,"Best Cartoonist Award \n\n Won several Dist Level\nCartooning,Painting \n & Quiz Competitions. ",style_white);
 	
-	game.add.tileSprite(15720,h-300,100,300'brick');
+	//game.add.tileSprite(15720,h-300,100,300'brick');
 
 	//game.add.sprite(15715,h-410,'best').scale.setTo(0.8,0.8);
 	//Positon style
