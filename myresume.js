@@ -469,14 +469,14 @@ function create(){
 	//game.add.text(14240,h-370,"Worked in a team \nto develop Smart Hospital Management \n System for Kalpvriksh Hospital.",style_white);
 
 
-	//game.add.sprite(14800,h-420,'otherprojects');
-	//game.add.text(14850,h-450,"Other Projects",style_white);
+	game.add.sprite(14800,h-420,'otherprojects');
+	game.add.text(14850,h-450,"Other Projects",style_white);
 	//Add Achievements Section
-	//game.add.tileSprite(base5+500,h-100-73*3,139*2,73*3,'brick');
-	//shakti = game.add.sprite(base5+1200,-500,'pshaktiman');
-	//shakti.scale.setTo(0.6,0.6);
-	//shakti_cup = game.add.sprite(base5+500,-500,'cup');
-	//shakti_cup.scale.setTo(0.5,0.5);
+	game.add.tileSprite(base5+500,h-100-73*3,139*2,73*3,'brick');
+	shakti = game.add.sprite(base5+1200,-500,'pshaktiman');
+	shakti.scale.setTo(0.6,0.6);
+	shakti_cup = game.add.sprite(base5+500,-500,'cup');
+	shakti_cup.scale.setTo(0.5,0.5);
 	//game.add.text(base5+505,h-300,"Best Cartoonist Award \n\n Won several Dist Level\nCartooning,Painting \n & Quiz Competitions. ",style_white);
 	
 	//game.add.tileSprite(15720,h-300,100,300'brick');
@@ -485,8 +485,8 @@ function create(){
 	//Positon style
 	var style_position = { font:"24px monospace",fill:"#fff",align:"center"};
 	
-	//cup1 = game.add.sprite(base5+820+200,-280,'cup');
-	//cup1.scale.setTo(0.6,0.6);
+	cup1 = game.add.sprite(base5+820+200,-280,'cup');
+	cup1.scale.setTo(0.6,0.6);
 	//game.add.sprite(base5+1190,h-330,'google');
 	//game.add.text(base5+1180,h-250,"Hackathon \n 3rd Runner up\n Developed a Game\n in DART",style_position);
 
@@ -501,14 +501,13 @@ function create(){
 	//game.add.sprite(base5+2060,h-410,'codelhi');
 	//game.add.text(base5+2080+50,h-310,"Hackathon",style_position);
 
-	//game.add.text(base5+2060,h-305+50,"1st in ",style_position);
+	game.add.text(base5+2060,h-305+50,"1st in ",style_position);
 	//game.add.sprite(base5+2170,h-310+50,'shephertz');
 	//game.add.text(base5+2060,h-205+30,"1st in ",style_position);
 	//game.add.sprite(base5+2150,h-210+30,'gaana').scale.setTo(0.15,0.15);
 	
 
 	//Add grari
-	/*
 	grari = game.add.sprite(base5+2600,h-350,'grari');
 	grari2 = game.add.sprite(base5+2520+260,h-420,'grari');
 	grari.animations.add('run');
@@ -516,7 +515,6 @@ function create(){
 	grari2.scale.setTo(0.75,0.75);
 	grari2.animations.add('run');
 	grari2.animations.play('run',2,true);
-	*/
 
 	//Add digital India
 	/*
@@ -525,9 +523,9 @@ function create(){
 	digital_india.animations.play('run',5,true);
 	game.add.text(base5+2650,h-420,"Winning Team member\n Code For India \n Google Hackathon for",{font:"30px Arial",fill:"#fff",align:"center"});
 	*/
-	//cup4=game.add.sprite(base5+2420,-410,'cup');
+	cup4=game.add.sprite(base5+2420,-410,'cup');
 
-	//cup5=game.add.sprite(base5+3000,h-400,'cup');
+	cup5=game.add.sprite(base5+3000,h-400,'cup');
 	cup5=game.add.sprite(base5+3200,h-350,'building').scale.setTo(0.5,0.5);
 	
 	//game.add.text(base5+3250,h-470,"Winner \nSmart City Hackathon \nat PEC (Nov'15)",{font:"30px Arial",fill:"#fff",align:"center"});
@@ -539,13 +537,11 @@ function create(){
 	//Add other highlights
 	//game.add.sprite(base6+600,h-240,'chai');
 	//game.add.text(base6+600,h-330,"Host:Chai Pe Charcha \n with NaMO & 'Mere \nSapno Ka Bharat'.",style_white);
-	/*
 	shakti2 = game.add.sprite(base6+930,-500,'pshaktiman');
 	shakti2.scale.setTo(0.75,0.75);
 	game.add.text(base6+900,h-430,"Sports Lover",style_white);
 	football=game.add.sprite(base6+900,h-200,'football');
 	game.add.tween(football).to( {y:h-300 }, 400, Phaser.Easing.Back.InOut, true, 0, 400, true);
-	*/
 
 	
 	game.add.sprite(base6+1200-30,h-550,'tree1');
@@ -610,7 +606,7 @@ function create(){
 	button_linkedin = game.add.button(base7+990,h-450,'linkedin',openLinkedIn, this);
 	button_linkedin.scale.setTo(0.8,0.8);
 	
-	game.add.text(base7+720,h-120,"Click /Tap the Clouds to open Profiles.",style_white);
+	game.add.text(base7+720,h-120,"Click /Tap the Clouds to open Profiles and Publications.",style_white);
 	
 	//game.add.button(base7+1260,h-450+20,'publication',openPublication,this);
 
