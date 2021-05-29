@@ -436,13 +436,13 @@ function create(){
 	game.add.text(11370,h-290,"Senior Software Engineer \n 2020 - 2021 \n Capgemini, India",style_ex);
 	
 
-	/*var pd = game.add.sprite(10875,h-220,'sandiskPd');
+	var pd = game.add.sprite(10875,h-220,'sandiskPd');
 	pd.scale.setTo(1.2,1.2);
 	pd.angle = -30;
-	*/
+	
 
 	//Add projects
-	/*
+	
 	game.add.sprite(12200,h-370,'games');
 	game.add.text(12280,h-430,"Developed Web & Android Games\n 500-1000 Downloads \n Rated 4.8/5.0 on Google Play",style_white);
 
@@ -453,13 +453,13 @@ function create(){
 	game.add.sprite(13400,h-210,'harddrive').scale.setTo(0.6,0.6);
 	game.add.sprite(13400,h-310,'bits');
 	game.add.text(13300,h-430,"Developed meta-data tracking\nstructures for large storage devices \n using Boost C++ and \n Boost Python Libraries.",style_white);
-	*/
+	
 
-	/*var pd = game.add.sprite(14050-100,h-160,'sandiskPd');
+	var pd = game.add.sprite(14050-100,h-160,'sandiskPd');
 	pd.scale.setTo(1.4,1.4);
 	pd.angle = 90;
 	game.add.text(13800-100,h-300,"Wrote Python Scripts to analyze \n fragmentation pattern \n on USB drives.",style_white);
-	*/
+	
 
 	//game.add.sprite(14100,h-370,'hospital');
 	//var ambu = game.add.sprite(14200,h-260,'ambulance');
@@ -550,10 +550,10 @@ function create(){
 	
 	game.add.sprite(base6+1200-30,h-550,'tree1');
 	game.add.sprite(base6+1250+30,h-400,'treeS');
-	//game.add.sprite(base6+1200,h-450,'yoga');
-	//game.add.sprite(base6+1600,h-400,'swach_bharat');
-	//game.add.text(base6+1240,h-500,"Holds Yoga Session \nin DTU \n every Friday.",style_white);
-	//game.add.text(base6+1400+20,h-360,"Took active part in \n Swacch Bharat,Tree Plantation\n Drives in Delhi,Punjab,Karnataka.",style_white);
+	game.add.sprite(base6+1200,h-450,'yoga');
+	game.add.sprite(base6+1600,h-400,'swach_bharat');
+	game.add.text(base6+1240,h-500,"Holds Yoga Session \nin DTU \n every Friday.",style_white);
+	game.add.text(base6+1400+20,h-360,"Took active part in \n Swacch Bharat,Tree Plantation\n Drives in Delhi,Punjab,Karnataka.",style_white);
 
 	
 	//Add Contact Buttons
@@ -570,7 +570,7 @@ function create(){
 	cloud_moving2.scale.setTo(1.3,1.3);
 	cloud_moving1.scale.setTo(1.2,1.2);
 
-	//game.add.text(20100,h-550,"www.prateeknarang.com",{font:"16px Arial",fill:"#ff0000"});
+	game.add.text(20100,h-550,"www.prateeknarang.com",{font:"16px Arial",fill:"#ff0000"});
 
 	game.add.sprite(base7+450,h-550,'cloud').scale.setTo(1.2,1.2);
 	button_github = game.add.button(base7+500,h-490,'github',openGithub, this);
