@@ -494,22 +494,22 @@ function create(){
 	
 	cup2=game.add.sprite(base5+1400,-340,'cup');
 	cup2.scale.setTo(0.8,0.8);
-	//game.add.sprite(base5+1630,h-390,'csi');
-	//game.add.text(base5+1580,h-250,"2nd in Spython \nGame Development\n Challenge",style_position);
+	game.add.sprite(base5+1630,h-390,'csi');
+	game.add.text(base5+1580,h-250,"2nd in Spython \nGame Development\n Challenge",style_position);
        
 	
 	cup3=game.add.sprite(base5+1820,-410,'cup');
-	//game.add.sprite(base5+2060,h-410,'codelhi');
-	//game.add.text(base5+2080+50,h-310,"Hackathon",style_position);
+	game.add.sprite(base5+2060,h-410,'codelhi');
+	game.add.text(base5+2080+50,h-310,"Hackathon",style_position);
 
-	//game.add.text(base5+2060,h-305+50,"1st in ",style_position);
-	//game.add.sprite(base5+2170,h-310+50,'shephertz');
-	//game.add.text(base5+2060,h-205+30,"1st in ",style_position);
-	//game.add.sprite(base5+2150,h-210+30,'gaana').scale.setTo(0.15,0.15);
+	game.add.text(base5+2060,h-305+50,"1st in ",style_position);
+	game.add.sprite(base5+2170,h-310+50,'shephertz');
+	game.add.text(base5+2060,h-205+30,"1st in ",style_position);
+	game.add.sprite(base5+2150,h-210+30,'gaana').scale.setTo(0.15,0.15);
 	
 
 	//Add grari
-	/*
+	
 	grari = game.add.sprite(base5+2600,h-350,'grari');
 	grari2 = game.add.sprite(base5+2520+260,h-420,'grari');
 	grari.animations.add('run');
@@ -517,15 +517,15 @@ function create(){
 	grari2.scale.setTo(0.75,0.75);
 	grari2.animations.add('run');
 	grari2.animations.play('run',2,true);
-	*/
+	
 
 	//Add digital India
-	/*
+	
 	digital_india = game.add.sprite(base5+2700,h-260,'digital_india');
 	digital_india.animations.add('run');
 	digital_india.animations.play('run',5,true);
 	game.add.text(base5+2650,h-420,"Winning Team member\n Code For India \n Google Hackathon for",{font:"30px Arial",fill:"#fff",align:"center"});
-	*/
+	
 	//cup4=game.add.sprite(base5+2420,-410,'cup');
 
 	//cup5=game.add.sprite(base5+3000,h-400,'cup');
