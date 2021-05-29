@@ -466,7 +466,7 @@ function create(){
 	//ambu.scale.setTo(0.8,0.8);
 	//var t = game.add.tween(ambu).to( { x:14400,}, 2000, Phaser.Easing.Back.InOut, true, 0, 2000, true);
 	//t.start();
-	game.add.text(14240,h-370,"Worked in a team \nto develop Smart Hospital Management \n System for Kalpvriksh Hospital.",style_white);
+	//game.add.text(14240,h-370,"Worked in a team \nto develop Smart Hospital Management \n System for Kalpvriksh Hospital.",style_white);
 
 
 	game.add.sprite(14800,h-420,'otherprojects');
@@ -494,18 +494,18 @@ function create(){
 	
 	cup2=game.add.sprite(base5+1400,-340,'cup');
 	cup2.scale.setTo(0.8,0.8);
-	game.add.sprite(base5+1630,h-390,'csi');
-	game.add.text(base5+1580,h-250,"2nd in Spython \nGame Development\n Challenge",style_position);
+	//game.add.sprite(base5+1630,h-390,'csi');
+	//game.add.text(base5+1580,h-250,"2nd in Spython \nGame Development\n Challenge",style_position);
        
 	
 	cup3=game.add.sprite(base5+1820,-410,'cup');
-	game.add.sprite(base5+2060,h-410,'codelhi');
-	game.add.text(base5+2080+50,h-310,"Hackathon",style_position);
+	//game.add.sprite(base5+2060,h-410,'codelhi');
+	//game.add.text(base5+2080+50,h-310,"Hackathon",style_position);
 
-	game.add.text(base5+2060,h-305+50,"1st in ",style_position);
-	game.add.sprite(base5+2170,h-310+50,'shephertz');
-	game.add.text(base5+2060,h-205+30,"1st in ",style_position);
-	game.add.sprite(base5+2150,h-210+30,'gaana').scale.setTo(0.15,0.15);
+	//game.add.text(base5+2060,h-305+50,"1st in ",style_position);
+	//game.add.sprite(base5+2170,h-310+50,'shephertz');
+	//game.add.text(base5+2060,h-205+30,"1st in ",style_position);
+	//game.add.sprite(base5+2150,h-210+30,'gaana').scale.setTo(0.15,0.15);
 	
 
 	//Add grari
