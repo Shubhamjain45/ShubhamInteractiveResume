@@ -526,27 +526,26 @@ function create(){
 	digital_india.animations.play('run',5,true);
 	game.add.text(base5+2650,h-420,"Winning Team member\n Code For India \n Google Hackathon for",{font:"30px Arial",fill:"#fff",align:"center"});
 	
-	//cup4=game.add.sprite(base5+2420,-410,'cup');
+	cup4=game.add.sprite(base5+2420,-410,'cup');
 
-	//cup5=game.add.sprite(base5+3000,h-400,'cup');
+	cup5=game.add.sprite(base5+3000,h-400,'cup');
 	cup5=game.add.sprite(base5+3200,h-350,'building').scale.setTo(0.5,0.5);
 	
-	//game.add.text(base5+3250,h-470,"Winner \nSmart City Hackathon \nat PEC (Nov'15)",{font:"30px Arial",fill:"#fff",align:"center"});
+	game.add.text(base5+3250,h-470,"Winner \nSmart City Hackathon \nat PEC (Nov'15)",{font:"30px Arial",fill:"#fff",align:"center"});
 
-	//game.add.sprite(base5+3670,h-310,'icpc');
-	//game.add.text(base5+3650,h-470,"Qualified for \nACM-ICPC \nChennai Regionals 2015\n(Team AIR 62) !",{font:"30px Arial",fill:"#fff",align:"center"});
+	game.add.sprite(base5+3670,h-310,'icpc');
+	game.add.text(base5+3650,h-470,"Qualified for \nACM-ICPC \nChennai Regionals 2015\n(Team AIR 62) !",{font:"30px Arial",fill:"#fff",align:"center"});
 	
-
 	//Add other highlights
-	//game.add.sprite(base6+600,h-240,'chai');
-	//game.add.text(base6+600,h-330,"Host:Chai Pe Charcha \n with NaMO & 'Mere \nSapno Ka Bharat'.",style_white);
-	/*
+	game.add.sprite(base6+600,h-240,'chai');
+	game.add.text(base6+600,h-330,"Host:Chai Pe Charcha \n with NaMO & 'Mere \nSapno Ka Bharat'.",style_white);
+	
 	shakti2 = game.add.sprite(base6+930,-500,'pshaktiman');
 	shakti2.scale.setTo(0.75,0.75);
 	game.add.text(base6+900,h-430,"Sports Lover",style_white);
 	football=game.add.sprite(base6+900,h-200,'football');
 	game.add.tween(football).to( {y:h-300 }, 400, Phaser.Easing.Back.InOut, true, 0, 400, true);
-	*/
+	
 
 	
 	game.add.sprite(base6+1200-30,h-550,'tree1');
