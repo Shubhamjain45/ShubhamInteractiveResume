@@ -479,7 +479,7 @@ function create(){
 	shakti.scale.setTo(0.6,0.6);
 	shakti_cup = game.add.sprite(base5+500,-500,'cup');
 	shakti_cup.scale.setTo(0.5,0.5);
-        game.add.text(base5+505,h-300,"Best Cartoonist Award \n\n Won several Dist Level\nCartooning,Painting \n & Quiz Competitions. ",style_white);
+        //game.add.text(base5+505,h-300,"Best Cartoonist Award \n\n Won several Dist Level\nCartooning,Painting \n & Quiz Competitions. ",style_white);
 	
 	//game.add.tileSprite(15720,h-300,100,300,'brick');
 
