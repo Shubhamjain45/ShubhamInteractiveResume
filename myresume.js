@@ -436,14 +436,14 @@ function create(){
 	game.add.text(11370,h-290,"Senior Software Engineer \n 2020 - 2021 \n Capgemini, India",style_ex);
 	
 
-	var pd = game.add.sprite(10875,h-220,'sandiskPd');
-	pd.scale.setTo(1.2,1.2);
-	pd.angle = -30;
+	//var pd = game.add.sprite(10875,h-220,'sandiskPd');
+	//pd.scale.setTo(1.2,1.2);
+	//pd.angle = -30;
 	
 
 	//Add projects
 	
-	game.add.sprite(12200,h-370,'games');
+	/*game.add.sprite(12200,h-370,'games');
 	game.add.text(12280,h-430,"Developed Web & Android Games\n 500-1000 Downloads \n Rated 4.8/5.0 on Google Play",style_white);
 
 	game.add.sprite(12760,h-250,'gamershq');
@@ -459,7 +459,7 @@ function create(){
 	pd.scale.setTo(1.4,1.4);
 	pd.angle = 90;
 	game.add.text(13800-100,h-300,"Wrote Python Scripts to analyze \n fragmentation pattern \n on USB drives.",style_white);
-	
+	*/
 
 	//game.add.sprite(14100,h-370,'hospital');
 	//var ambu = game.add.sprite(14200,h-260,'ambulance');
@@ -468,24 +468,26 @@ function create(){
 	//t.start();
 	//game.add.text(14240,h-370,"Worked in a team \nto develop Smart Hospital Management \n System for Kalpvriksh Hospital.",style_white);
 
-
+ 
+	/*
 	game.add.sprite(14800,h-420,'otherprojects');
 	game.add.text(14850,h-450,"Other Projects",style_white);
-	
+	*/ 
 	//Add Achievements Section
 	game.add.tileSprite(base5+500,h-100-73*3,139*2,73*3,'brick');
-	shakti = game.add.sprite(base5+1200,-500,'pshaktiman');
-	shakti.scale.setTo(0.6,0.6);
-	shakti_cup = game.add.sprite(base5+500,-500,'cup');
-	shakti_cup.scale.setTo(0.5,0.5);
-	game.add.text(base5+505,h-300,"Best Cartoonist Award \n\n Won several Dist Level\nCartooning,Painting \n & Quiz Competitions. ",style_white);
+	//shakti = game.add.sprite(base5+1200,-500,'pshaktiman');
+	//shakti.scale.setTo(0.6,0.6);
+	//shakti_cup = game.add.sprite(base5+500,-500,'cup');
+	//shakti_cup.scale.setTo(0.5,0.5);
+	//game.add.text(base5+505,h-300,"Best Cartoonist Award \n\n Won several Dist Level\nCartooning,Painting \n & Quiz Competitions. ",style_white);
 	
 	game.add.tileSprite(15720,h-300,100,300,'brick');
 
-	game.add.sprite(15715,h-410,'best').scale.setTo(0.8,0.8);
+	//game.add.sprite(15715,h-410,'best').scale.setTo(0.8,0.8);
 	//Positon style
-	var style_position = { font:"24px monospace",fill:"#fff",align:"center"};
+	//var style_position = { font:"24px monospace",fill:"#fff",align:"center"};
 	
+	/*
 	cup1 = game.add.sprite(base5+820+200,-280,'cup');
 	cup1.scale.setTo(0.6,0.6);
 	game.add.sprite(base5+1190,h-330,'google');
@@ -506,7 +508,7 @@ function create(){
 	game.add.sprite(base5+2170,h-310+50,'shephertz');
 	game.add.text(base5+2060,h-205+30,"1st in ",style_position);
 	game.add.sprite(base5+2150,h-210+30,'gaana').scale.setTo(0.15,0.15);
-	
+	*/
 
 	//Add grari
 	
