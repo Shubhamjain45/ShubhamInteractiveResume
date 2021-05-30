@@ -1065,7 +1065,7 @@ function update(){
 		//console.log("Shakti cup is here");
 
 	}
-	if(hero.x > base5+800 && hero.x <=base5+900 && !cupTweenDone){
+	/*if(hero.x > base5+800 && hero.x <=base5+900 && !cupTweenDone){
 	
 	cupTweenDone =true;
 	
@@ -1089,7 +1089,7 @@ function update(){
 	cupTween4.to({y:h-410},2000,Phaser.Easing.Bounce.Out, true);
 	cupTween4.start();
 
-	}
+	}*/
 
 
 	if(hero.x>platformLength-350){
