@@ -481,13 +481,13 @@ function create(){
 	shakti_cup.scale.setTo(0.5,0.5);
         game.add.text(base5+505,h-300,"Best Cartoonist Award \n\n Won several Dist Level\nCartooning,Painting \n & Quiz Competitions. ",style_white);
 	
-	game.add.tileSprite(15720,h-300,100,300,'brick');
+	//game.add.tileSprite(15720,h-300,100,300,'brick');
 
 	//game.add.sprite(15715,h-410,'best').scale.setTo(0.8,0.8);
 	//Positon style
 	var style_position = { font:"24px monospace",fill:"#fff",align:"center"};
 	
-	
+	/*
 	cup1 = game.add.sprite(base5+820+200,-280,'cup');
 	cup1.scale.setTo(0.6,0.6);
 	game.add.sprite(base5+1190,h-330,'google');
@@ -508,7 +508,7 @@ function create(){
 	game.add.sprite(base5+2170,h-310+50,'shephertz');
 	game.add.text(base5+2060,h-205+30,"1st in ",style_position);
 	game.add.sprite(base5+2150,h-210+30,'gaana').scale.setTo(0.15,0.15);
-	
+	*/
 
 	//Add grari
 	
@@ -522,7 +522,7 @@ function create(){
 	
 
 	//Add digital India
-	
+	/*
 	digital_india = game.add.sprite(base5+2700,h-260,'digital_india');
 	digital_india.animations.add('run');
 	digital_india.animations.play('run',5,true);
@@ -556,7 +556,7 @@ function create(){
 	game.add.sprite(base6+1600,h-400,'swach_bharat');
 	game.add.text(base6+1240,h-500,"Holds Yoga Session \nin DTU \n every Friday.",style_white);
 	game.add.text(base6+1400+20,h-360,"Took active part in \n Swacch Bharat,Tree Plantation\n Drives in Delhi,Punjab,Karnataka.",style_white);
-
+        */
 	
 	//Add Contact Buttons
 	game.add.sprite(base7+600,h-400,'ladder');
@@ -1065,7 +1065,7 @@ function update(){
 		//console.log("Shakti cup is here");
 
 	}
-	if(hero.x > base5+800 && hero.x <=base5+900 && !cupTweenDone){
+	/*if(hero.x > base5+800 && hero.x <=base5+900 && !cupTweenDone){
 	
 	cupTweenDone =true;
 	
@@ -1089,7 +1089,7 @@ function update(){
 	cupTween4.to({y:h-410},2000,Phaser.Easing.Bounce.Out, true);
 	cupTween4.start();
 
-	}
+	}*/
 
 
 	if(hero.x>platformLength-350){
