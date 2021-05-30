@@ -485,7 +485,7 @@ function create(){
 
 	//game.add.sprite(15715,h-410,'best').scale.setTo(0.8,0.8);
 	//Positon style
-	//var style_position = { font:"24px monospace",fill:"#fff",align:"center"};
+	var style_position = { font:"24px monospace",fill:"#fff",align:"center"};
 	
 	
 	cup1 = game.add.sprite(base5+820+200,-280,'cup');
