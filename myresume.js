@@ -480,7 +480,7 @@ function create(){
 	shakti_cup.scale.setTo(0.5,0.5);
 	game.add.text(base5+505,h-300,"Best Cartoonist Award \n\n Won several Dist Level\nCartooning,Painting \n & Quiz Competitions. ",style_white);
 	
-	game.add.tileSprite(15720,h-300,100,300'brick');
+	game.add.tileSprite(15720,h-300,100,300,'brick');
 
 	game.add.sprite(15715,h-410,'best').scale.setTo(0.8,0.8);
 	//Positon style
