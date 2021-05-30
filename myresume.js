@@ -1099,12 +1099,12 @@ function update(){
 		t.onComplete.add(function(){game.add.text(platformLength-185,h-370,"Thanks for\n Visiting !",style_white);},this);
 	
 	}
-	if(hero.x > 18000){
+	/*if(hero.x > 18000){
 		
 		var t =game.add.tween(shakti2).to({y:h-450},100);
 		t.start();
 		t.onComplete.add(bounceFootball,this);
-	}
+	}*/
 
 	if(hero.x > base7+500){
 		game.add.tween(cloud_moving2).to({x:base7,alpha:0},5000).start();
