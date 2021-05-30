@@ -572,7 +572,7 @@ function create(){
 	cloud_moving2.scale.setTo(1.3,1.3);
 	cloud_moving1.scale.setTo(1.2,1.2);
 
-	game.add.text(20100,h-550,"www.prateeknarang.com",{font:"16px Arial",fill:"#ff0000"});
+	//game.add.text(20100,h-550,"https://shubhamjain45.github.io/",{font:"16px Arial",fill:"#ff0000"});
 
 	game.add.sprite(base7+450,h-550,'cloud').scale.setTo(1.2,1.2);
 	button_github = game.add.button(base7+500,h-490,'github',openGithub, this);
