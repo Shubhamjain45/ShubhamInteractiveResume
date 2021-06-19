@@ -36,8 +36,8 @@ var bug_killed = false;
 var cloud_moving1;
 var cloud_moving2;
 var base5 = 15100;
-var base6 = 17500+1400;
-var base7 =19500+1400;
+//var base6 = 17500+1400;
+var base7 =17500+1400;
 var platformLength = base7+2000;
 var cupTweenDone=false;
 var cupTweenSecondDone=false;
@@ -298,9 +298,9 @@ function create(){
 
 	game.add.sprite(base5+150,h-420,'tree1').scale.setTo(0.8,0.8);
 	game.add.sprite(base5+300,h-250,'treeS').scale.setTo(0.7,0.7);
-	game.add.sprite(base6+250,h-420,'tree1').scale.setTo(0.8,0.8);
-	game.add.sprite(base6+200,h-250,'treeS').scale.setTo(0.7,0.7);
-	game.add.sprite(base6+380,h-300,'treeS').scale.setTo(0.8,0.8);
+	//game.add.sprite(base6+250,h-420,'tree1').scale.setTo(0.8,0.8);
+	//game.add.sprite(base6+200,h-250,'treeS').scale.setTo(0.7,0.7);
+	//game.add.sprite(base6+380,h-300,'treeS').scale.setTo(0.8,0.8);
 
 
 	var style = { font: "16px monospace", fill: "#fff", align: "center" };
@@ -386,9 +386,9 @@ function create(){
 	game.add.text(base5+240,h-260,"Achievements",{font:"25px Arial Black"});
 
 
-	game.add.sprite(base6+200,h-440,'level');
-	game.add.text(base6+270,h-340,"Level 6");
-	game.add.text(base6+335,h-260,"Other Highlights",{font:"20px Arial Black"});
+	//game.add.sprite(base6+200,h-440,'level');
+	//game.add.text(base6+270,h-340,"Level 6");
+	//game.add.text(base6+335,h-260,"Other Highlights",{font:"20px Arial Black"});
 
 
 	game.add.sprite(base7,h-440,'level');
