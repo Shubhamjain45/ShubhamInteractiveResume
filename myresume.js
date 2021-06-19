@@ -1060,8 +1060,8 @@ function update(){
 	}
 	if(hero.x > 15350){
 		
-		game.add.tween(shakti).to({x:base5+600,y:h-610},100).start();
-		game.add.tween(shakti_cup).to({x:base5+500,y:h-475},100).start();
+		game.add.tween(shakti).to({x:base7+600,y:h-610},100).start();
+		game.add.tween(shakti_cup).to({x:base7+500,y:h-475},100).start();
 		//console.log("Shakti cup is here");
 
 	}
