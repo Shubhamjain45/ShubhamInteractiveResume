@@ -35,9 +35,9 @@ var bug_tween;
 var bug_killed = false;
 var cloud_moving1;
 var cloud_moving2;
-var base5 = 15100;
+//var base5 = 15100;
 //var base6 = 17500+1400;
-var base7 =17500+1400;
+var base7 =15100+1400;
 var platformLength = base7+2000;
 var cupTweenDone=false;
 var cupTweenSecondDone=false;
@@ -296,8 +296,8 @@ function create(){
 	//game.add.text(6600,h-160,'FULL STACK WEB DEVELOPER \t\t SERVER SIDE IN DJANGO\t\t GAME DEVELOPMENT\t\tANDROID\t\t  DESIGNING SKILLS >> \t\t\t\t\t PHOTOSHOP ',style_lang);	
 
 
-	game.add.sprite(base5+150,h-420,'tree1').scale.setTo(0.8,0.8);
-	game.add.sprite(base5+300,h-250,'treeS').scale.setTo(0.7,0.7);
+	//game.add.sprite(base5+150,h-420,'tree1').scale.setTo(0.8,0.8);
+	//game.add.sprite(base5+300,h-250,'treeS').scale.setTo(0.7,0.7);
 	//game.add.sprite(base6+250,h-420,'tree1').scale.setTo(0.8,0.8);
 	//game.add.sprite(base6+200,h-250,'treeS').scale.setTo(0.7,0.7);
 	//game.add.sprite(base6+380,h-300,'treeS').scale.setTo(0.8,0.8);
@@ -381,9 +381,9 @@ function create(){
 	game.add.text(11940,h-260,"Projects",{font:"25px Arial Black"});
 
 
-	game.add.sprite(base5+100,h-440,'level');
-	game.add.text(base5+170,h-340,"Level 5");
-	game.add.text(base5+240,h-260,"Achievements",{font:"25px Arial Black"});
+	//game.add.sprite(base5+100,h-440,'level');
+	//game.add.text(base5+170,h-340,"Level 5");
+	//game.add.text(base5+240,h-260,"Achievements",{font:"25px Arial Black"});
 
 
 	//game.add.sprite(base6+200,h-440,'level');
@@ -392,7 +392,7 @@ function create(){
 
 
 	game.add.sprite(base7,h-440,'level');
-	game.add.text(base7+70,h-340,"Level 7");
+	game.add.text(base7+70,h-340,"Level 5");
 	game.add.text(base7+135,h-260,"Online Profiles",{font:"20px Arial Black"});
 
 	//-------------------Levels Finish
@@ -472,7 +472,7 @@ function create(){
 	/*
 	game.add.sprite(14800,h-420,'otherprojects');
 	game.add.text(14850,h-450,"Other Projects",style_white);
-	*/ 
+	
 	//Add Achievements Section
 	game.add.tileSprite(base5+500,h-100-73*3,139*2,73*3,'brick');
 	shakti = game.add.sprite(base5+1200,-500,'pshaktiman');
@@ -480,7 +480,7 @@ function create(){
 	shakti_cup = game.add.sprite(base5+500,-500,'cup');
 	shakti_cup.scale.setTo(0.5,0.5);
         //game.add.text(base5+505,h-300,"Best Cartoonist Award \n\n Won several Dist Level\nCartooning,Painting \n & Quiz Competitions. ",style_white);
-	
+	*/ 
 	//game.add.tileSprite(15720,h-300,100,300,'brick');
 
 	//game.add.sprite(15715,h-410,'best').scale.setTo(0.8,0.8);
@@ -511,7 +511,7 @@ function create(){
 	*/
 
 	//Add grari
-	
+	/*
 	grari = game.add.sprite(base5+2600,h-350,'grari');
 	grari2 = game.add.sprite(base5+2520+260,h-420,'grari');
 	grari.animations.add('run');
@@ -519,7 +519,7 @@ function create(){
 	grari2.scale.setTo(0.75,0.75);
 	grari2.animations.add('run');
 	grari2.animations.play('run',2,true);
-	
+	*/ 
 
 	//Add digital India
 	/*
