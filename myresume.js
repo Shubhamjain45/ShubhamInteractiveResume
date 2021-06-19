@@ -444,7 +444,7 @@ function create(){
 	//Add projects
 	
 	//game.add.sprite(12200,h-370,'games');
-	game.add.text(12280,h-430,"Developed Netflix clone \n using advanced React, Redux and Firebase \n & hosted at netflix-clone-shubhamjain.web.app",style_white);
+	game.add.text(12280,h-430,"Developed NETFLIX clone \n using advanced React, Redux and Firebase \n & hosted at netflix-clone-shubhamjain.web.app",style_white);
 
 	//game.add.sprite(12760,h-250,'gamershq');
 	//game.add.text(12750,h-380,"Developed Netflix clone \n using advanced React, Redux and Firebase \n Full payment functionality using Stripe",style_white);
@@ -452,7 +452,7 @@ function create(){
 
 	//game.add.sprite(13400,h-210,'harddrive').scale.setTo(0.6,0.6);
 	//game.add.sprite(13400,h-310,'bits');
-	game.add.text(13300,h-430,"Developed Netflix clone \n using advanced React, Redux and Firebase \n Full payment functionality using Stripe",style_white);
+	game.add.text(13300,h-430,"Developed AMAZON clone \n using advanced React, Redux and Firebase \n Full payment functionality using Stripe",style_white);
 	
 /*
 	var pd = game.add.sprite(14050-100,h-160,'sandiskPd');
