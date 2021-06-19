@@ -1058,13 +1058,14 @@ function update(){
 		showPlantsFromBottom();
 		moveBugLeft();
 	}
-	if(hero.x > 15350){
+	/*if(hero.x > 15350){
 		
 		game.add.tween(shakti).to({x:base7+600,y:h-610},100).start();
 		game.add.tween(shakti_cup).to({x:base7+500,y:h-475},100).start();
 		//console.log("Shakti cup is here");
 
 	}
+	*/
 	/*if(hero.x > base5+800 && hero.x <=base5+900 && !cupTweenDone){
 	
 	cupTweenDone =true;
