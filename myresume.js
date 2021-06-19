@@ -443,9 +443,9 @@ function create(){
 
 	//Add projects
 	
-	/*game.add.sprite(12200,h-370,'games');
-	game.add.text(12280,h-430,"Developed Web & Android Games\n 500-1000 Downloads \n Rated 4.8/5.0 on Google Play",style_white);
-
+	//game.add.sprite(12200,h-370,'games');
+	game.add.text(12280,h-430,"Developed Netflix clone \n using advanced React, Redux and Firebase \n s hosted at netflix-clone-shubhamjain.web.app",style_white);
+/*
 	game.add.sprite(12760,h-250,'gamershq');
 	game.add.text(12750,h-380,"Developed a gaming portal \n with frontend & backend \n to host and play games",style_white);
 
