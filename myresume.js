@@ -1027,7 +1027,7 @@ function update(){
 		hero.alpha = 0.8;
 		birds.alpha =0;
 	}
-	if(hero.x >base5){
+	if(hero.x >base7){
 
 		night_tween.start();
 	}
