@@ -444,12 +444,12 @@ function create(){
 	//Add projects
 	
 	//game.add.sprite(12200,h-370,'games');
-	game.add.text(12280,h-430,"Developed Netflix clone \n using advanced React, Redux and Firebase \n s hosted at netflix-clone-shubhamjain.web.app",style_white);
-/*
+	game.add.text(12280,h-430,"Developed Netflix clone \n using advanced React, Redux and Firebase \n & hosted at netflix-clone-shubhamjain.web.app",style_white);
+
 	game.add.sprite(12760,h-250,'gamershq');
-	game.add.text(12750,h-380,"Developed a gaming portal \n with frontend & backend \n to host and play games",style_white);
+	game.add.text(12750,h-380,"Developed Netflix clone \n using advanced React, Redux and Firebase \n Full payment functionality using Stripe",style_white);
 
-
+/*
 	game.add.sprite(13400,h-210,'harddrive').scale.setTo(0.6,0.6);
 	game.add.sprite(13400,h-310,'bits');
 	game.add.text(13300,h-430,"Developed meta-data tracking\nstructures for large storage devices \n using Boost C++ and \n Boost Python Libraries.",style_white);
