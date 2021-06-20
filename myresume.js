@@ -458,8 +458,9 @@ function create(){
 	var pd = game.add.sprite(14050-100,h-160,'sandiskPd');
 	pd.scale.setTo(1.4,1.4);
 	pd.angle = 90;
-	game.add.text(13800-100,h-300,"Wrote Python Scripts to analyze \n fragmentation pattern \n on USB drives.",style_white);
 	*/
+	game.add.text(13800-100,h-300,"• A Javascript/Phaser project using Super Mario Bros 1 as a model for a complete game engine.",style_white);
+	
 
 	//game.add.sprite(14100,h-370,'hospital');
 	//var ambu = game.add.sprite(14200,h-260,'ambulance');
