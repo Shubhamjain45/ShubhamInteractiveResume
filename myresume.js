@@ -37,7 +37,7 @@ var cloud_moving1;
 var cloud_moving2;
 //var base5 = 15100;
 //var base6 = 17500+1400;
-var base7 =15100+1400;
+var base7 =14800+1400;
 var platformLength = base7+2000;
 var cupTweenDone=false;
 var cupTweenSecondDone=false;
