@@ -459,7 +459,7 @@ function create(){
 	pd.scale.setTo(1.4,1.4);
 	pd.angle = 90;
 	*/
-	game.add.text(13800-100,h-300,"• A Javascript/Phaser project \n using Super Mario Bros 1 \n as a model for a complete game engine.",style_white);
+	game.add.text(14240,h-430,"• A Javascript/Phaser project \n using Super Mario Bros 1 \n as a model for a complete game engine.",style_white);
 	
 
 	//game.add.sprite(14100,h-370,'hospital');
