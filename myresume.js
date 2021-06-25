@@ -443,7 +443,7 @@ function create(){
 
 	//Add projects
 	
-	game.add.sprite(12200,h-315,'games');
+	game.add.sprite(12200,h-320,'games');
 	game.add.text(12260,h-430,"Developed NETFLIX clone \n using advanced React, Redux and Firebase \n & hosted at netflix-clone-shubhamjain.web.app",style_white);
 
 	//game.add.sprite(12760,h-250,'gamershq');
