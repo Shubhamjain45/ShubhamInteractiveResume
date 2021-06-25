@@ -20,7 +20,7 @@ var shakti_cup;
 var shakti2;
 var football;
 var text;
-var spoj_url="https://www.spoj.com/users/shubhamjain45/";
+var leetcode_url="https://leetcode.com/shubhamjain45/";
 var hackerearth_url="https://www.hackerearth.com/@shubham8751";
 var codechef_url="https://www.codechef.com/users/shubhamjain45";
 var github_url="https://github.com/Shubhamjain45";
@@ -121,7 +121,7 @@ function preload(){
 	game.load.image('swach_bharat','assets/swach_bharat.png');
 	game.load.image('github','assets/github.png');	
 	game.load.image('codechef','assets/codechef.png');
-	game.load.image('spoj','assets/spojlogo.png');
+	game.load.image('leetcode','assets/leetcode.png');
 	game.load.image('algae','assets/algae-b.png');
 	game.load.image('blogLogo','assets/icon_small.png');
 	game.load.image('bug','assets/bug.png');
@@ -427,8 +427,8 @@ function create(){
 	*/
 
 	//Add company texts.
-	var style_ex = {font:"16px Arial",fill:orange,align:"center"};
-	var style_exS = {font:"12px Arial",fill:orange,align:"center"};
+	var style_ex = {font:"18px Arial",fill:orange,align:"center"};
+	var style_exS = {font:"14px Arial",fill:orange,align:"center"};
 	game.add.text(10030,h-210,"Software Engineer Trainee \n Capgemini, India ",style_exS);
 	//game.add.text(10390h-220,"InstaLabs, Gurgaon \n June-July 2014 \n Android Developer",style_exS);
 	game.add.text(10660,h-230,"Software Engineer \n 2019 - 2020 \n Capgemini, India",style_ex); 
@@ -452,7 +452,7 @@ function create(){
 
 	game.add.sprite(13400,h-325,'harddrive');
 	//game.add.sprite(13400,h-310,'bits');
-	game.add.text(13300,h-430,"Developed AMAZON clone \n using advanced React, Redux and Firebase \n Full payment functionality using Stripe",style_white);
+	game.add.text(13500,h-430,"Developed AMAZON clone \n using advanced React, Redux and Firebase \n Full payment functionality using Stripe",style_white);
 	
 /*
 	var pd = game.add.sprite(14050-100,h-160,'sandiskPd');
@@ -604,7 +604,7 @@ function create(){
 	
 	//game.add.sprite(20150+200,h-350,'spoj').scale.setTo(0.25,0.25);
 	game.add.sprite(base7+850,h-430,'cloud').scale.setTo(1.3,1.3);
-	button_spoj = game.add.button(base7+890,h-350,'spoj',openSpoj, this);
+	button_leetcode = game.add.button(base7+890,h-350,'leetcode',openLeetcode, this);
 
 
 	var linkedin_cloud = game.add.sprite(base7+1050-100,h-530,'cloud')
@@ -1348,8 +1348,8 @@ function openGmail(){
  win.focus();
 }
 
-function openSpoj(){
- var win = window.open(spoj_url);
+function openLeetcode(){
+ var win = window.open(leetcode_url);
  win.focus();
 }
 function openPublication(){
