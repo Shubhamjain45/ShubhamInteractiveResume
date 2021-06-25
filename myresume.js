@@ -450,7 +450,7 @@ function create(){
 	//game.add.text(12750,h-380,"Developed Netflix clone \n using advanced React, Redux and Firebase \n Full payment functionality using Stripe",style_white);
 
 
-	//game.add.sprite(13400,h-210,'harddrive').scale.setTo(0.6,0.6);
+	game.add.sprite(13400,h-325,'harddrive');
 	//game.add.sprite(13400,h-310,'bits');
 	game.add.text(13300,h-430,"Developed AMAZON clone \n using advanced React, Redux and Firebase \n Full payment functionality using Stripe",style_white);
 	
