@@ -429,7 +429,7 @@ function create(){
 	//Add company texts.
 	var style_ex = {font:"18px Arial",fill:orange,align:"center"};
 	var style_exS = {font:"14px Arial",fill:orange,align:"center"};
-	game.add.text(10030,h-210,"Software Engineer Trainee \n Capgemini, India ",style_exS);
+	game.add.text(10020,h-210,"Software Engineer Trainee \n Capgemini, India ",style_exS);
 	//game.add.text(10390h-220,"InstaLabs, Gurgaon \n June-July 2014 \n Android Developer",style_exS);
 	game.add.text(10660,h-230,"Software Engineer \n 2019 - 2020 \n Capgemini, India",style_ex); 
 	//game.add.text(11000,h-250,"Bangalore \n June-July 2015 \n Firmware Developer\n Intern",style_ex);
